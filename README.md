@@ -1,13 +1,13 @@
 # POKER MIND
 
 Poker Mind es un proyecto de Ciencia de Datos e Inteligencia Artificial.
-Este proyecto se centra en la generación y análisis de datos de 1 Millón de manos para analizar estadísticas, comportamientos y patrones. Posteriormente implementa un modelo de red neuronal artificial (ANN) capáz de generar predicciones en tiempo real a lo largo de las etapas de una mano de Poker de probabilidades de victoria, porcentaje de conectar manos y recomendaciones de acciónes que debe tomar el jugador en base a su situación en cada momento.
+Este proyecto se centra en la generación y análisis de datos de 2 Millones de manos para analizar estadísticas, comportamientos y patrones. Posteriormente implementa un modelo de red neuronal artificial (ANN) capáz de generar predicciones en tiempo real a lo largo de las etapas de una mano de Poker de probabilidades de victoria, porcentaje de conectar manos y recomendaciones de acciónes que debe tomar el jugador en base a su situación en cada momento.
 
 A continuación, se detallan las tres partes principales del proyecto.
 
 ## 1. Creación del Dataset mediante Simulaciones de Monte Carlo
 
-En esta sección, se genera un **dataset** mediante simulaciones de Monte Carlo. La idea es generar una enorme base de datos con 1 Millón de manos con las que trabajaremos posteriormente (Más detalles en el notebook dataset.ipynb). Los datos se almacenan en un archivo CSV que es utilizado posteriormente para análisis y entrenamiento del modelo.
+En esta sección, se genera un **dataset** mediante simulaciones de Monte Carlo. La idea es generar una enorme base de datos con 2 Millones de manos con las que trabajaremos posteriormente (Más detalles en el notebook dataset.ipynb). Los datos se almacenan en un archivo CSV que es utilizado posteriormente para análisis y entrenamiento del modelo.
 
 El archivo generado ocupa demasiado como para poder subirlo al repositorio, por lo que hay dos opciones.
 
@@ -15,7 +15,7 @@ El archivo generado ocupa demasiado como para poder subirlo al repositorio, por 
 
 - Si desean trabajar con el dataset original les dejo el enlace de descarga para que lo añadan al proyecto en su equipo.
 
-Enlace de descarga de `simulacion_poker.csv` [Google Drive](https://drive.google.com/uc?id=1v8qYs-9eKp9OcLlRoeV1AoOQyCMc2sVN&export=download).
+Enlace de descarga de `simulacion_montecarlo.csv` [Google Drive](https://drive.google.com/file/d/1w0AvoduuTIo-RGb4bNtqu1VnjzA7oNXE/view?usp=drive_link).
 
 ## 2. Análisis de Datos y Visualización mediante Gráficas
 
