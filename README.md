@@ -44,7 +44,7 @@ Para comenzar a trabajar con este proyecto, sigue los siguientes pasos:
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/poker_mind.git
+   git clone git@github.com:rramirezsoft/poker-mind.git
    ```
 
 2. instala las dependencias necesarias:
