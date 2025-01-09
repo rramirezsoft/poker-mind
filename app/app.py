@@ -11,7 +11,7 @@ def main():
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Poker Mind")
-    pygame.display.set_icon(pygame.image.load(os.path.join(BASE_DIR, "assets", "img", "res", "141.ico")))
+    pygame.display.set_icon(pygame.image.load(os.path.join(BASE_DIR, "assets", "img", "res", "icon.png")))
 
     # Música de fondo
     sound_manager.load_music(os.path.join(BASE_DIR, "assets", "sounds", "music"))

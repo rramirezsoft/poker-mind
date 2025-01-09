@@ -19,3 +19,6 @@ __pycache__/
 # Datasets
 data/dataset_poker_procesado.csv
 data/simulacion_montecarlo.csv
+
+# Instalador
+installer/

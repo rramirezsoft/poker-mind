@@ -61,3 +61,32 @@ Para comenzar a trabajar con este proyecto, sigue los siguientes pasos:
 3. **Entrenamiento del Modelo de ANN**: Para entrenar el modelo de red neuronal, utiliza el archivo `poker_ai.ipynb`, donde se emplean los datos procesados para entrenar y evaluar el modelo de predicción.
 
 4. **Uso de Interfaz Gráfica**: Para ejecutar la App de Poker Mind accede a la ruta app/ y una vez ahí ejecutas el comando `python app.py` en la terminal.
+
+# Descarga de la App
+
+Para descargar la aplicación de Poker Mind en tu equipo y así poder disfrutar del contenido sólo tienes que acceder a mi página web y pulsar el icono de descarga del proyecto.
+
+Visita mi web [rramirezsoft.com](http://rramirezsoft.com).
+
+- Visita la sección Portfolio en la página principal.
+- Busca el proyecto Poker Mind y haz click en el icono de descarga.
+
+---
+
+## Licencia
+
+Este proyecto está licenciado bajo la **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+Puedes copiar, distribuir y adaptar el contenido, siempre que se otorgue el crédito adecuado y no se utilice con fines comerciales.
+
+Para más detalles sobre la licencia, consulta el archivo [`LICENSE`](./LICENSE) o visita:  
+[https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
+---
+
+## Contacto
+
+- GitHub: https://github.com/rramirezsoft
+- Sitio Web: https://rramirezsoft.com
+- Correo Electrónico: ramirezsoft@gmail.com
+
+### ¡Gracias por tu apoyo y por utilizar Poker Mind!
