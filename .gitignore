@@ -17,4 +17,5 @@ logs/
 __pycache__/
 
 # Datasets
-data/*.csv
+data/dataset_poker_procesado.csv
+data/simulacion_montecarlo.csv
