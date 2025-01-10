@@ -73,8 +73,8 @@ class HandScreen:
 
 
         # Cargamos el modelo y el escalador
-        self.model = load_model(os.path.join(BASE_DIR, '..', '..', 'models', 'poker_model.keras'))
-        self.scaler = joblib.load(os.path.join(BASE_DIR, '..', '..', 'models', 'scaler.pkl'))
+        self.model = load_model(os.path.join(BASE_DIR, '..', 'models', 'poker_model.keras'))
+        self.scaler = joblib.load(os.path.join(BASE_DIR, '..', 'models', 'scaler.pkl'))
 
         self.prediction_result = None # Resultado de la predicción
 
@@ -159,7 +159,7 @@ class HandScreen:
         entrada_scaled = self.scaler.transform(entrada_df)
 
         # Predicción
-        probabilidades = self.model.predict(entrada_scaled)
+        probabilidades = self.model.predict(entrada_scaled, verbose=0)
         clase_predicha = np.argmax(probabilidades)
 
         clases = ['Derrota', 'Empate', 'Victoria']

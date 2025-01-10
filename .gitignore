@@ -1,5 +1,5 @@
 # Ignoramos el entorno virtual
-poker-env/
+pokermind-venv/
 
 # Checkpoints de Jupyter
 .ipynb_checkpoints/
@@ -21,4 +21,6 @@ data/dataset_poker_procesado.csv
 data/simulacion_montecarlo.csv
 
 # Instalador
-installer/
+build/
+dist/
+app.spec
