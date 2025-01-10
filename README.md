@@ -52,6 +52,20 @@ Para comenzar a trabajar con este proyecto, sigue los siguientes pasos:
    pip install -r requirements.txt
    ```
 
+Para ejecutar la Interfaz Gráfica
+
+1. Navega hasta la carpeta `app/`
+
+   ```bash
+   cd app/
+   ```
+
+2. Ejecuta el siguiente comando
+
+   ```bash
+   python app.py
+   ```
+
 ## USO
 
 1. **Generación de Dataset**: El script para generar las simulaciones de Monte Carlo se encuentra en el archivo `dataset.ipynb`. Simplemente ejecuta el archivo para generar un nuevo dataset de simulaciones o descarga el archivo ya generado en el enlace de arriba.
